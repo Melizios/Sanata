@@ -35,7 +35,7 @@ def mainProgram(nameA, AODA, YODA, nameB, AODB, YODB):
 
     if tahunA <= 0 or tahunB <= 0:
         # Jika input user menghasilkan nilai negatif, maka dikembalikan nilai -1
-        print("-1 ")
+        print("-1")
         return -1
     else:
         print("So the average is (", resultA ,'+', resultB ,")/2 = ",average((resultA), float(resultB)))
